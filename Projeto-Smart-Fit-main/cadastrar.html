@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Senac Academy  </title>
+    <link rel="stylesheet" href="../Projeto-Smart-Fit-main/cadastrar.css">
+</head>
+<body>
+    <main>
+        <form name="news-btn">
+          <h1> Cadastro de Clientes</h1>
+          <h3>
+            <p> Login <input type="text"> 
+                Senha <input type="password"></p>
+             <p>* Nome   <input type="text" required>
+                * CPF <input type="text" placeholder="999.999.999-99" maxlength="14" required>
+                RG <input type="text">
+            </p>
+            <p>Data de Nascimento <input type="date">
+               Estado Civil <select>
+                   <option> Solteiro   </option>
+                   <option> Casado     </option>
+                   <option> Divorciado </option>
+                   <option> Viúvo      </option>
+                   <option> Outros     </option>
+               </select>               
+            </p>   
+            <p> Nacionalidade <input type="text">
+                Sexo <input type="radio" name="sexo"> Feminino
+                     <input type="radio" name="sexo"> Masculino
+            </p>
+            <p>
+                Endereço <input type="text">
+                Complemento <input type="text">
+            </p>
+            <p>
+                Bairro <input type="text">
+                CEP <input type="text">
+                UF <select>
+                    <option> RJ </option>
+                    <option> SP </option>
+                    <option> MG </option>
+                    <option> ES </option>
+                    <option> AC </option>
+                    <option> RS </option>
+                    <option> BA </option>
+                </select>
+            </p>
+            <p>
+                Telefone <input type="tel" placeholder="(99)9999-9999">
+                Celular <input type="tel" placeholder="(99)99999-9999">
+                E-mail <input type="email">
+            </p>
+            <p>
+                Objetivos: <input type="checkbox"> Maior qualidade de vida
+                           <input type="checkbox"> Perder peso
+                           <input type="checkbox"> Dieta por motivo de doença
+            </p>
+            <p> Plano de Saúde 
+                <select>
+                  <option> Não tenho plano </option>
+                  <option> UIMED </option>
+                  <option> AMIL  </option>
+                </select>
+            </p>
+            <p>
+                Histórico de doenças familiares <br>
+                <textarea cols="50" rows="10"> Digite aqui o histórico do paciente </textarea>
+            </p>
+            <p> <button type="submit"> Enviar </button> 
+                <button type="reset">  Limpar </button>     
+            </p>
+          </h3>
+        </form>
+
+    </main>
+</body>
+</html>
